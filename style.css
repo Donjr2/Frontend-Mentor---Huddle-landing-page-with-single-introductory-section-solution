@@ -190,8 +190,8 @@ img:first-child {
     justify-content: space-between;
   }
   .top_area img:first-child {
-    width: 203px;
-    padding-top: 2px;
+    width: 206px;
+    padding-top: 1px;
   }
   .top_area img:nth-child(2) {
     width: 100%;
