@@ -173,10 +173,17 @@ img:first-child {
 }
 
 @media (min-width: 1300px) {
+  .main_area {
+    width: 1440px;
+    height: 800px;
+    background-size: 92%;
+    padding: 54px 76px 40px 74px;
+  }
   .content_area {
     width: 100%;
   }
   .top_area {
+    flex-basis: 709px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -191,25 +198,13 @@ img:first-child {
   }
 
   .bottom_area {
+    flex-basis: 526px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-}
-@media (min-width: 1450px) {
-  .main_area {
-    width: 1440px;
-    height: 800px;
-    background-size: 92%;
-    padding: 54px 76px 40px 74px;
-  }
-  .top_area {
-    flex-basis: 709px;
-  }
-  .bottom_area {
-    flex-basis: 526px;
-  }
+
   .bottom_area h1 {
     font-size: 2.5rem;
     font-weight: 600;
