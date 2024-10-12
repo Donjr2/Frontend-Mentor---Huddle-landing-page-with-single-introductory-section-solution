@@ -128,7 +128,7 @@ img:first-child {
 
   border: 1px solid var(--white);
   border-radius: 50%;
-  margin: 0 3px;
+  margin: 0 6px;
 }
 .social_icon a:active i,
 .social_icon a:hover i {
